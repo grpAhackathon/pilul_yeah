@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>Pilaleur</title>
+  <link rel="stylesheet" href="styles/default.css">
+  <link rel="stylesheet" href="js/wickedpicker.min.css">
+  <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+  <script src="js/wickedpicker.min.js"></script>
+  <script src="js/default.js"></script>
+</head>
+<body>
+    <div id="cellType" class="conf">
+      <div id="header">
+        <img style="cursor: pointer;" src="images/fleche_retour.png" width="90px" /><p><b>SEMAINE 50 : CONFIGURATION</b></p>
+      </div>
+      <div id="content">
+        <ul>
+        </ul>
+      </div>
+      <div style="background-color: #43e9a7;width: 100%;padding-bottom: 15px;padding-top: 15px;margin: auto;">
+        <div style="width: 518px;margin: auto;">  
+          <input type="button" id="add" value="Ajouter une Pilule" width="150px" />
+          <input style="margin-left: 10px;" type="button" id="save" value="Enregistrer les modifications" width="200px" />
+        </div>
+      </div>
+    </div>
+    <div id="cellTypeRecap" style="margin-top: 20px;display: none;">
+      <div id="header">
+        <p style="text-align: left;font-size:24px;">SEMAINE 50 : RECAPITULATIF</p>
+      </div>
+      <div id="content">
+        <table>
+            <tr>
+                <th>Médicament</th>
+                <th>Posologie</th>
+                <th>Quantité</th>
+            </tr>
+        </table>
+      </div>
+    </div>
+</body>
+</html>
